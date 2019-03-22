@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Two parts of Express that I learned about this week are Express routing and Express middleware
+
 - [ ] Describe Middleware?
+
+Middleware is a way to extend the functionality of the Express framework. There are many different types but mainly there is built-in, third party, and custom middleware. Examples are, respectively, express.json, Helmet, and any custom middleware that performs a specific task.
 
 - [ ] Describe a Resource?
 
+A Resource is a noun in the application. The things the app cares about.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+To help the clients know if a request was successful, the API can return a 200 status code that indicates that the request has succeeded.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can partition our application into sub-applications with Express Routers. This makes it easy to reason about our code because of its inherent modularity.
 
 ## Project Setup
 
