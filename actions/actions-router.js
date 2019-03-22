@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({
-      message: 'Error retrieving the actions.',
+      message: 'Error retrieving the actions.'
     });
   }
 });
@@ -26,7 +26,7 @@ router.get('/:id', async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({
-      message: 'Error retrieving action.',
+      message: 'Error retrieving action.'
     });
   }
 });
@@ -38,7 +38,7 @@ router.post('/', async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({
-      message: 'Error adding the action.',
+      message: 'Error adding the action.'
     });
   }
 });
@@ -52,7 +52,7 @@ router.put('/:id', async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({
-      message: 'Error updating the action.',
+      message: 'Error updating the action.'
     });
   }
 });
@@ -66,7 +66,7 @@ router.delete('/:id', async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({
-      message: 'Error deleting action.',
+      message: 'Error deleting action.'
     });
   }
 });
